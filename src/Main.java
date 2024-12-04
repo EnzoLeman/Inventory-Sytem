@@ -7,12 +7,12 @@ public class Main {
             
             // Shop Details
             System.out.print("What is your name? ");
-            String owner_Name = scanner.nextLine();
+            String ownerName = scanner.nextLine();
 
             System.out.print("Where is your shop locate? ");
-            String shop_Name = scanner.nextLine();
+            String shopName = scanner.nextLine();
 
-            Shop shop = new Shop(owner_Name, shop_Name);
+            Shop shop = new Shop(ownerName, shopName);
 
 
             int choice;

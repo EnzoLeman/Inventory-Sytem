@@ -16,21 +16,22 @@ public class Shop {
     public Double pct_Qty;
 
     // Shop Details Variable Declaration    
-    public String owner_Name;
-    public String shop_Name;
+    public String ownerName;
+    public String shopName;
 
-    // Constructor to initialize object with shop & owner names
-    public Shop(String owner_Name, String shop_Name) {
-        this.owner_Name = owner_Name;
-        this.shop_Name = shop_Name;
+    // Constructor to initialize shop & owner names
+    public Shop(String ownerName, String shopName) {
+        this.ownerName = ownerName;
+        this.shopName = shopName;
     }
 
-    public String getOwner_Name() {
-        return owner_Name;
+    // Getter for OwnerName
+    public String getOwnerName() {
+        return ownerName;
     }
-
-    public String getShop_Name() {
-        return shop_Name;
+    // Getter for ShopName
+    public String getShopName() {
+        return shopName;
     }
 
     

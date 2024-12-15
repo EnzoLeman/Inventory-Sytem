@@ -111,7 +111,7 @@ public class Main {
                         break;
 
                     case 4:
-                        System.out.printf("> Goodbye %s%n " , shop.getOwnerName());
+                        System.out.printf("> Goodbye %s%n" , shop.getOwnerName());
                         break;
 
                     default:
